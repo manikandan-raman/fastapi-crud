@@ -12,6 +12,8 @@ class AddUser(BaseModel):
     name: str
     age: int
     is_qualified: bool
+    email: str
+    password: str
 
 
 class UserResponse(AddUser, AdditionalFields): ...
